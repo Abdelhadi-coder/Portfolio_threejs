@@ -9,13 +9,12 @@ const MySkills = () => {
         <div className='w-full h-full md:px-10 px-5'>
             <TitleHeader
             title="Mes Skills"
-            sub="🗿 Ce dont je suis capable"
+            sub="🗿 Ce que je sais faire"
             />
 
             <div className='tech-grid'>
                 {techStackIcons.map((icon) => (
                     <div key={icon.name} className='card-border tech-card overflow-hidden group xl:rounded-full rounded-lg'>
-                        <div className='tech-card-animated-bg' />
                         <div className='tech-card-content'>
                             <div className='tech-icon-wrapper'>
                                 <TechIcon model={icon} />

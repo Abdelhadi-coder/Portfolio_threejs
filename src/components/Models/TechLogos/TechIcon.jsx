@@ -13,7 +13,7 @@ const TechIcon = ({ model }) => {
     )
   }
 
-    const scene = useGLTF(model.modelpath);
+  const scene = useGLTF(model.modelpath);
   return (
     <Canvas>
         <ambientLight intensity={0.3} />
