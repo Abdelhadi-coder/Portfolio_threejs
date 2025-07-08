@@ -70,29 +70,41 @@ const ExperienceCard = [
         ]
     },
     {
-        logo: "/images/epitech.png",
-        image: "/images/epitech.png",
-        title: "Formation & Alternance",
-        date: "Depuis 2024",
-        presentation: ``,
+        logo: "/images/lycee.svg",
+        // image: "/images/lycee.svg",
+        title: "Lycée Samuel de Champlain",
+        date: "Septembre 2021 - Septembre 2024",
+        presentation: `Baccalauréat Général avec spécialités Mathématiques, Physique-Chimie et option Mathématiques Expertes en Terminale. Un parcours axé sur la rigueur scientifique, la modélisation, la résolution de problèmes complexes et l’approfondissement des raisonnements mathématiques.`,
         missions: [
-            "Pédagogie par projets (délais, attentes, niveau de difficulté...",
-            "Expérimentation centrée sur la résolution de problèmes",
-            "Réalisation de projets de groupe : sites web front & back-end (MVC, MVMM, POO)",
+            "Approfondissement des notions de logique, d’algèbre et d’analyse",
+            "Étude avancée des phénomènes physiques et chimiques (optique, électromagnétisme, thermodynamique...)",
+            "Travaux pratiques en laboratoire et projets interdisciplinaires",
         ]
     },
     {
-        logo: "/images/epitech.png",
-        image: "/images/epitech.png",
-        title: "Formation & Alternance",
-        date: "Depuis 2024",
-        presentation: ``,
+        logo: "/images/viva-logo.jpeg",
+        image: "/images/vivatech.png",
+        title: "VivaTech 2025 – Volontaire",
+        date: "Mai 2025",
+        presentation: `Participation en tant que volontaire au salon international VivaTech 2025, dédié à l'innovation technologique et aux startups. Cette expérience m’a permis de découvrir l’écosystème tech, de renforcer mes compétences en communication et de contribuer activement à l’organisation d’un événement de grande envergure.`,
         missions: [
-            "Pédagogie par projets (délais, attentes, niveau de difficulté...",
-            "Expérimentation centrée sur la résolution de problèmes",
-            "Réalisation de projets de groupe : sites web front & back-end (MVC, MVMM, POO)",
+            "Accueil et orientation des visiteurs et exposants internationaux",
+            "Support logistique sur les stands et zones de démonstration",
+            "Découverte des dernières innovations en IA, développement, cybersécurité et environnement tech",
         ]
-    },
+    }
+    // {
+    //     logo: "/images/epitech.png",
+    //     image: "/images/epitech.png",
+    //     title: "Formation & Alternance",
+    //     date: "Depuis 2024",
+    //     presentation: ``,
+    //     missions: [
+    //         "Pédagogie par projets (délais, attentes, niveau de difficulté...",
+    //         "Expérimentation centrée sur la résolution de problèmes",
+    //         "Réalisation de projets de groupe : sites web front & back-end (MVC, MVMM, POO)",
+    //     ]
+    // },
 ]
 
 const techStackIcons = [
@@ -115,15 +127,9 @@ const techStackIcons = [
         rotation: [0, 0, 0],
     },
     {
-        name: "Git",
-        modelpath: "/models/react_logo-transformed.glb",
-        scale: 0.8,
-        rotation: [0, 0, 0],
-    },
-    {
-        name: "Javascript",
-        modelpath: "/models/react_logo-transformed.glb",
-        scale: 0.8,
+        name: "PHP",
+        modelpath: "/models/php.svg",
+        scale: 0.9,
         rotation: [0, 0, 0],
     },
     {

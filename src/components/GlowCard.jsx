@@ -19,17 +19,27 @@ const GlowCard = ( {card, children, index }) => {
         card.style.setProperty('--start', angle + 60)
     }
   return (
-    <div ref={(el) => (cardRefs.current[index] = el)} onMouseMove={handleMouseMove(index)} className='card card-border timeline-card rounded-lg p-10'>
-        <div className='glow' />
-        <div className="flex justify-center mb-5">
-          <img src={card.image} className="w-46 h-auto" alt={card.title} />
-        </div>
-        <div className='flex items-center gap-1'>
-            <p className='whitespace-pre-line text-white-50 text-lg'>{card.presentation}</p>
-        </div>
+  <div
+    ref={(el) => (cardRefs.current[index] = el)}
+    onMouseMove={handleMouseMove(index)}
+    className='card card-border timeline-card rounded-lg p-10'
+  >
+    <div className='glow' />
 
-        {children}
+    {card.image && (
+      <div className="flex justify-center mb-5">
+        <img src={card.image} className="w-46 h-auto" alt={card.title} />
+      </div>
+    )}
+
+    <div className='flex items-center gap-1'>
+      <p className='whitespace-pre-line text-white-50 text-lg'>
+        {card.presentation}
+      </p>
     </div>
+
+    {children}
+  </div>
   )
 }
 

@@ -9,7 +9,7 @@ const MySkills = () => {
         <div className='w-full h-full md:px-10 px-5'>
             <TitleHeader
             title="Mes Skills"
-            sub="🗿 Ce que je sais faire"
+            sub="💪 Ce que je sais faire"
             />
 
             <div className='tech-grid'>
